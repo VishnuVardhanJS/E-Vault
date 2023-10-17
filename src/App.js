@@ -11,7 +11,7 @@ function App(e) {
 
   function getAccessToken() {
 
-    return process.env.REACT_APP_API_KEY
+    return process.env.react_app_apiKey
 
   }
 
