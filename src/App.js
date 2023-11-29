@@ -23,7 +23,7 @@ function App(e) {
     const fileInput = document.querySelector('input[type="file"]')
     const client = makeStorageClient()
     const cid = await client.put(fileInput.files)
-    setLink("https://"+ cid + ".ipfs.cf-ipfs.com")
+    setLink("https://cloudflare-ipfs.com/"+ cid )
     setVisible(true)
     console.log('stored files with cid:', cid)
     return cid
